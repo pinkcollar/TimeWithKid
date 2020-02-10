@@ -19,11 +19,8 @@ public class MainActivity extends AppCompatActivity {
     //ListView listView;
     ListView mlistView;
     ArrayList<Integer> images  = new ArrayList<>();
-     ;
-
     ArrayList<String> taskNames = new ArrayList<>();
-
-    ArrayList<String> arrayList = new ArrayList<>();
+    ArrayList<String> materials = new ArrayList<>();
 
 
     @Override
@@ -43,32 +40,27 @@ public class MainActivity extends AppCompatActivity {
         images.add(R.drawable.pinecone);
         images.add(R.drawable.pinecone);
         images.add(R.drawable.pinecone);
-        arrayList.add("CLOSED CONES\n" +
-                "materials: " +
+        materials.add("materials:\n" +
+                "- two pinecones from a white pine or hemlock pine\n" +
+                "- bowl of tap water" +
+                "timer");
+        materials.add("materials:\n" +
                 "two pinecones from a white pine or hemlock pine" +
                 "bowl of tap water" +
                 "timer");
-        arrayList.add("kjgkfj");
-        arrayList.add("kjgkfj");
-        arrayList.add("kjgkfj");
-        arrayList.add("kjgkfj");
-        arrayList.add("kjgkfj");
-        arrayList.add("kjgkfj");
-        arrayList.add("kjgkfj");
-        arrayList.add("kjgkfj");
-        arrayList.add("kjgkfj");
-        arrayList.add("kjgkfj");
-        arrayList.add("kjgkfj");
-        arrayList.add("kjgkfj");
-        arrayList.add("kjgkfj");
-        arrayList.add("kjgkfj");
-        arrayList.add("kjgkfj");
-        arrayList.add("kjgkfj");
-        arrayList.add("kjgkfj");
-        arrayList.add("kjgkfj");
-        arrayList.add("kjgkfj");
-        arrayList.add("kjgkfj");
-        arrayList.add("kjgkfj");
+        materials.add("materials:\n" +
+                "two pinecones from a white pine or hemlock pine" +
+                "bowl of tap water" +
+                "timer");
+        materials.add("materials:\n" +
+                "two pinecones from a white pine or hemlock pine" +
+                "bowl of tap water" +
+                "timer");
+        materials.add("materials:\n" +
+                "two pinecones from a white pine or hemlock pine" +
+                "bowl of tap water" +
+                "timer");
+
 
         CustomAdaptor customAdaptor = new CustomAdaptor();
         mlistView.setAdapter(customAdaptor);
@@ -102,9 +94,11 @@ public class MainActivity extends AppCompatActivity {
         public View getView(int position, View convertView, ViewGroup parent) {
             View view = getLayoutInflater().inflate(R.layout.customlayout, null);
             ImageView mImageView = view.findViewById(R.id.imageView);
-            TextView mTextView = view.findViewById(R.id.textView);
+            TextView mTaskNamesTextView = view.findViewById(R.id.textView);
+            TextView mMaterialsTextView = view.findViewById(R.id.materialsTextView);
             mImageView.setImageResource(images.get(position));
-            mTextView.setText(taskNames.get(position));
+            mTaskNamesTextView.setText(taskNames.get(position));
+            mMaterialsTextView.setText(materials.get(position));
             return view;
         }
     }
