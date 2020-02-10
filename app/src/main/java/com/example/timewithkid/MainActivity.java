@@ -33,7 +33,11 @@ public class MainActivity extends AppCompatActivity {
 
         mlistView = findViewById(R.id.listView);
         taskNames.add("CLOSED CONES");
-        taskNames.add("ICE");
+        taskNames.add("WINTER WORLD");
+        taskNames.add("WINTER WORLD");
+        taskNames.add("WINTER WORLD");
+        taskNames.add("WINTER WORLD");
+        taskNames.add("WINTER WORLD");
         taskNames.add("ONE+MORE");
         images.add(R.drawable.pinecone);
         images.add(R.drawable.pinecone);
