@@ -26,7 +26,7 @@ public class ActivityDescription extends AppCompatActivity {
         ArrayList<String> explanations = new ArrayList<>();
         descriptions.add("PROCEDURE:\n1. Place one pinecode in the tap water for 10 minutes\n2. Keep one dry. What happens tothe wet pinecone in comparison to the dry one?\n" +
                 "3. Let the pinecone dry out and inspect it again.");
-        explanations.add("After few minutes, the wet pinecone's scales started to close. ");
+        explanations.add("EXPLANATION:\nAfter few minutes, the wet pinecone's scales started to close. ");
 
 
         if (index > -1){
