@@ -2,7 +2,9 @@ package com.example.timewithkid;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.provider.Telephony;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
@@ -29,6 +31,14 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         mlistView = findViewById(R.id.listView);
+        mlistView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Intent showActivityDescription = new Intent(getApplicationContext(), ActivityDescription.class);
+                showActivityDescription.putExtra("com.example.timewithkid.DESCRIPTION_INDEX", position);
+                startActivity(showActivityDescription);
+            }
+        });
         taskNames.add("CLOSED CONES");
         taskNames.add("WINTER WORLD");
         taskNames.add("WINTER WORLD");
@@ -64,12 +74,6 @@ public class MainActivity extends AppCompatActivity {
 
         CustomAdaptor customAdaptor = new CustomAdaptor();
         mlistView.setAdapter(customAdaptor);
-
-        //ArrayAdapter arrayAdapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, arrayList);
-
-        //listView.setAdapter(arrayAdapter);
-
-
 
     }
 
