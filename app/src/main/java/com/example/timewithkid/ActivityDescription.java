@@ -13,7 +13,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 public class ActivityDescription extends AppCompatActivity {
-
+    ArrayList<Activity> activities = MainActivity.activities.getActivities();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,11 +22,6 @@ public class ActivityDescription extends AppCompatActivity {
         Intent in = getIntent();
         int index = in.getIntExtra("com.example.timewithkid.DESCRIPTION_INDEX", -1);
 
-        ArrayList<String> descriptions = new ArrayList<>();
-        ArrayList<String> explanations = new ArrayList<>();
-        descriptions.add("PROCEDURE:\n1. Place one pinecode in the tap water for 10 minutes\n2. Keep one dry. What happens tothe wet pinecone in comparison to the dry one?\n" +
-                "3. Let the pinecone dry out and inspect it again.");
-        explanations.add("EXPLANATION:\nAfter few minutes, the wet pinecone's scales started to close. ");
 
 
         if (index > -1){
@@ -35,24 +30,18 @@ public class ActivityDescription extends AppCompatActivity {
             img.setImageResource(pic);
             //scaleImg(img, pic);
             TextView descriptionView = (TextView) findViewById(R.id.DescriprionTextView);
-            descriptionView.setText(descriptions.get(index));
+            descriptionView.setText(activities.get(index).description);
 
             TextView explanationView = (TextView) findViewById(R.id.ExplanationTextView);
-            explanationView.setText(explanations.get(index));
+            explanationView.setText(activities.get(index).getExplanation());
         }
-
 
     }
 
     private int getDescriptionImage(int index){
-        switch (index){
-            case 0: return R.drawable.pinecone;
-            case 1: return R.drawable.pinecone;
-            case 2: return R.drawable.pinecone;
-            case 3: return R.drawable.pinecone;
-            case 4: return R.drawable.pinecone;
-            default: return -1;
-        }
+
+        return activities.get(index).getDescriptionImgView();
+
     }
 
     private void scaleImg(ImageView img, int pic){

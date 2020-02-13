@@ -3,13 +3,13 @@ package com.example.timewithkid;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.os.AsyncTask;
 import android.os.Bundle;
-import android.provider.Telephony;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.BaseAdapter;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -18,12 +18,9 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
-    //ListView listView;
+    TextView progressTextView;
     ListView mlistView;
-    ArrayList<Integer> images  = new ArrayList<>();
-    ArrayList<String> taskNames = new ArrayList<>();
-    ArrayList<String> materials = new ArrayList<>();
-
+    static ActivityHelper activities = new ActivityHelper();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,6 +28,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         mlistView = findViewById(R.id.listView);
+        progressTextView = findViewById(R.id.progressTextView);
+
+        activities.addActivities();
+
         mlistView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
@@ -39,54 +40,21 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(showActivityDescription);
             }
         });
-        taskNames.add("CLOSED CONES");
-        taskNames.add("WINTER WORLD");
-        taskNames.add("WINTER WORLD");
-        taskNames.add("WINTER WORLD");
-        taskNames.add("WINTER WORLD");
-        taskNames.add("WINTER WORLD");
-        taskNames.add("ONE+MORE");
-        images.add(R.drawable.pinecone);
-        images.add(R.drawable.pinecone);
-        images.add(R.drawable.pinecone);
-        images.add(R.drawable.pinecone);
-        materials.add("materials:\n" +
-                "- two pinecones from a white pine or hemlock pine\n" +
-                "- bowl of tap water" +
-                "timer");
-        materials.add("materials:\n" +
-                "two pinecones from a white pine or hemlock pine" +
-                "bowl of tap water" +
-                "timer");
-        materials.add("materials:\n" +
-                "two pinecones from a white pine or hemlock pine" +
-                "bowl of tap water" +
-                "timer");
-        materials.add("materials:\n" +
-                "two pinecones from a white pine or hemlock pine" +
-                "bowl of tap water" +
-                "timer");
-        materials.add("materials:\n" +
-                "two pinecones from a white pine or hemlock pine" +
-                "bowl of tap water" +
-                "timer");
-
 
         CustomAdaptor customAdaptor = new CustomAdaptor();
         mlistView.setAdapter(customAdaptor);
-
     }
 
     class CustomAdaptor extends BaseAdapter{
 
         @Override
         public int getCount() {
-            return taskNames.size();
+            return activities.getActivities().size();
         }
 
         @Override
         public Object getItem(int position) {
-            return taskNames.get(position);
+            return activities.getActivities().get(position);
         }
 
         @Override
@@ -100,12 +68,13 @@ public class MainActivity extends AppCompatActivity {
             ImageView mImageView = view.findViewById(R.id.imageView);
             TextView mTaskNamesTextView = view.findViewById(R.id.textView);
             TextView mMaterialsTextView = view.findViewById(R.id.materialsTextView);
-            mImageView.setImageResource(images.get(position));
-            mTaskNamesTextView.setText(taskNames.get(position));
-            mMaterialsTextView.setText(materials.get(position));
+            mImageView.setImageResource(activities.getActivities().get(position).getLogoImgSrc());
+            mTaskNamesTextView.setText(activities.getActivities().get(position).getTaskName());
+            mMaterialsTextView.setText(activities.getActivities().get(position).getMaterials());
             return view;
         }
     }
 
 
-}
+
+} //End of MainActivity
