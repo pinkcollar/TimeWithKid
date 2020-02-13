@@ -11,7 +11,7 @@ public class ActivityHelper {
     }
 
     public void addActivities() {
-        activities.add( new Activity(R.drawable.pinecone, R.drawable.pinecone,"CLOSED CONES",
+        activities.add( new Activity(R.drawable.pineconeclosedopen, R.drawable.pineconepreschoolsciencexperiment,"CLOSED CONES",
                 "materials:\n" +
                 "- two pinecones from a white pine or hemlock pine\n" +
                 "- bowl of tap water\n" +
