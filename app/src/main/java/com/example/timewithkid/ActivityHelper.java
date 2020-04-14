@@ -26,7 +26,7 @@ public class ActivityHelper {
                 "- eyedropper\n" +
                 "- tap water\n" +
                 "- goose or duck feather\n" +
-                "- magnifying lens\n",
+                "- magnifying lens",
 
                 "PROCEDURE:\n\n1. Fill eyedropper with tap water.\n2. Place a few drops of water on the feather.\n Use the magnifying lens to observe the feather." +
                 "What happens to ther water drops?"
@@ -35,7 +35,9 @@ public class ActivityHelper {
                 "that connect to other barbules on either side like teeth of a zipper. The barbs are covered with an oily substance, made in duck's skin, that keeps water away from the duck." +
                 "When you put the water from the eyedropper on the feather, the water just rolled off."));
 
-        activities.add( new Activity(R.drawable.floatingegg, R.drawable.floatingegg,"The Floating Egg", "materials:\n" +
+        activities.add( new Activity(R.drawable.floatingegg, R.drawable.floatingegg,"The Floating Egg",
+
+                "materials:\n" +
                 "- two chicken eggs\n" +
                 "- two tall glasses\n" +
                 "- tap water\n" +
@@ -57,7 +59,9 @@ public class ActivityHelper {
                 " That is to say, the salt packs into the same volume of water." +
                         " With enough salt added to the water, the density of the water is greater than the egg, allowing the egg to float."));
 
-        activities.add( new Activity(R.drawable.egg, R.drawable.egginside,"Investigation Eggs", "materials:\n" +
+        activities.add( new Activity(R.drawable.egg, R.drawable.egginside,"Investigation Eggs",
+
+                "materials:\n" +
                 "- chicken egg\n" +
                 "- magnifying lens\n" +
                 "- bowl\n" +
@@ -77,7 +81,9 @@ public class ActivityHelper {
                         " The albumen contains water reserved for the chick and holds the yolk."));
 
 
-        activities.add( new Activity(R.drawable.watercup, R.drawable.watercup,"Water Fireworks", "materials:\n" +
+        activities.add( new Activity(R.drawable.watercup, R.drawable.watercup,"Water Fireworks",
+
+                "materials:\n" +
                 "- Water\n" +
                 "- Oil\n" +
                 "- A Fork\n" +
@@ -96,7 +102,9 @@ public class ActivityHelper {
                         " float at the top of the water because it is less dense, and the food coloring will beging to dissolve once they" +
                         " sink through the oil and into the water."));
 
-        activities.add( new Activity(R.drawable.sunclock, R.drawable.sunclock,"Sun Dial", "materials:\n" +
+        activities.add( new Activity(R.drawable.sunclock, R.drawable.sunclock,"Sun Dial",
+
+                "materials:\n" +
                 "- straight stick about two feet long\n" +
                 "- small rocks or small seashells\n" +
                 "- a watch\n" +
@@ -114,7 +122,9 @@ public class ActivityHelper {
                         " The shadow will change it’s angle depending how the sun’s light is hitting the stick because our earth" +
                         " is constantly rotating and revolving around the sun."));
 
-        activities.add( new Activity(R.drawable.balloon, R.drawable.balloon,"Balloon Pop! Not!", "materials:\n" +
+        activities.add( new Activity(R.drawable.balloon, R.drawable.balloon,"Balloon Pop! Not!",
+
+                "materials:\n" +
                 "- A Balloon\n" +
                 "- 2 pieces of tape, each about 2 inches in length\n" +
                 "- Small needle or push pin (with adult supervision)",
@@ -128,7 +138,9 @@ public class ActivityHelper {
                 " widening is what makes it pop, not the fact that air is slowly being let out. When the balloon’s hole gets bigger," +
                 " it rips and eventually the balloon pops. In this experiment, the tape slow down this process."));
 
-        activities.add( new Activity(R.drawable.soundbaloon, R.drawable.soundbaloon,"Balloon Speakers", "materials:\n" +
+        activities.add( new Activity(R.drawable.soundbaloon, R.drawable.soundbaloon,"Balloon Speakers",
+
+                "materials:\n" +
                 "- 1. Balloon",
 
                 "PROCEDURE:\n\n1. Blow up the balloon so that it is filled with air.\n2. Hold the balloon up to your ear.\n" +
@@ -141,7 +153,9 @@ public class ActivityHelper {
                         " These circumstances allow the air molecules to carry the sound waves better. " +
                         "That is why you can hear the tapping so easily. It’s as if you built a speaker."));
 
-        activities.add( new Activity(R.drawable.seed, R.drawable.seedembryo,"Seed Embryo", "materials:\n" +
+        activities.add( new Activity(R.drawable.seed, R.drawable.seedembryo,"Seed Embryo",
+
+                "materials:\n" +
                 "- lima bean\n" +
                 "- plastic cup\n" +
                 "- tap water\n" +
@@ -159,7 +173,9 @@ public class ActivityHelper {
                         " The cotyledons are the first leaves the plant produces."));
 
 
-        activities.add( new Activity(R.drawable.dryerase, R.drawable.dryerase,"Dry Erase", "materials:\n" +
+        activities.add( new Activity(R.drawable.dryerase, R.drawable.dryerase,"Dry Erase",
+
+                "materials:\n" +
                 "- a glass plate, bowl, or picture frame\n" +
                 "- dry erase marker\n" +
                 "- water",
@@ -172,7 +188,9 @@ public class ActivityHelper {
                 "EXPLANATION:\n\nThe marker leaves behind mixture of pigments and a type of alcohol mixed together." +
                 " The alcohol dissolves and the pigments are left behind as a solid. Glass is so smooth that the solid slides right off when it gets wet!"));
 
-        activities.add( new Activity(R.drawable.milkart, R.drawable.milkart,"Milk Art", "materials:\n" +
+        activities.add( new Activity(R.drawable.milkart, R.drawable.milkart,"Milk Art",
+
+                "materials:\n" +
                 "- A bowl\n" +
                 "- ½ cup of milk\n" +
                 "- Dish soap\n" +
@@ -193,8 +211,10 @@ public class ActivityHelper {
                         "When you add the dish soap to the milk, " +
                 "the fat separates and moves making your magical milk art!"));
 
-        activities.add( new Activity(R.drawable.mainplane, R.drawable.plane,"Paper Hovercrafts", "materials:\n" +
-                "- Square Paper\n",
+        activities.add( new Activity(R.drawable.mainplane, R.drawable.plane,"Paper Hovercrafts",
+
+                "materials:\n" +
+                "- Square Paper",
 
                 "PROCEDURE:\n\n1. Start by folding the square in half corner to corner to make a triangle.\n2. Fold that triangle in half corner to corner to form a smaller triangle.\n" +
                 "3. Unfold the previous fold to get the larger triangle. Fold the edges of the triangle into the newly-made crease to form a kite shape.\n" +
@@ -207,8 +227,9 @@ public class ActivityHelper {
                         " a little breath is all it takes to get the hovercraft speeding on its way!"));
 
         activities.add( new Activity(R.drawable.clouds, R.drawable.cloudstypes,"What Do Different Types of Clouds Mean?",
+
                 "materials:\n" +
-                        "- clouds\n",
+                        "- clouds",
 
                         "PROCEDURE:\n\n1. Lie on your back and observe the clouds\n" +
                                 "2. Read the descriptions below and determine what types of clouds are in the sky.\n " +
@@ -224,7 +245,9 @@ public class ActivityHelper {
                         " Cumulus clouds are fluffy, cauliflower-shaped clouds with flat, broad bases. Usually they form" +
                         "on top of rapidly rising currents of warm air. These clouds form on clear days. "));
 
-        activities.add( new Activity(R.drawable.soilinbag, R.drawable.soilonwindow,"Water Cycle", "materials:\n" +
+        activities.add( new Activity(R.drawable.soilinbag, R.drawable.soilonwindow,"Water Cycle",
+
+                "materials:\n" +
                 "- soil\n" +
                 "- plastic zip bag\n" +
                 "- tap water\n" +
@@ -243,7 +266,9 @@ public class ActivityHelper {
                         "As the sun warmed the soil in the bag, you saw water droplets form at the top pf the bag. When enough water collected at the top  of the bag, " +
                         "it became heavy and fell back to the soil like rain." ));
 
-        activities.add( new Activity(R.drawable.soap, R.drawable.soap,"Massive Expanding Soap", "materials:\n" +
+        activities.add( new Activity(R.drawable.soap, R.drawable.soap,"Massive Expanding Soap",
+
+                "materials:\n" +
                 "- Ivory Soap\n" +
                 "- Large Microwave-safe Bowl",
 
@@ -254,7 +279,9 @@ public class ActivityHelper {
                 "EXPLANATION:\n\nIvory soap has lots of little air bubbles in it. " +
                 "As the air bubbles are heated in the microwave, they get bigger. The soap is a solid, so once it expands, it stays expanded (although it does shrink a little as it cools)."));
 
-        activities.add( new Activity(R.drawable.fish_age, R.drawable.fish_age,"Fish Age", "materials:\n" +
+        activities.add( new Activity(R.drawable.fish_age, R.drawable.fish_age,"Fish Age",
+
+                "materials:\n" +
                 "- Dead fish, from a fresh fish market\n" +
                 "- Magnifying lens",
 
@@ -268,7 +295,9 @@ public class ActivityHelper {
                 "which show the growth pattern of the fish. This part of the scale is embedded in the skin and has clusters of ridges around it." +
                 " Each cluster represents one year of growth. To determine the age of the fish, just count the clusters around each scale.\n"));
 
-        activities.add( new Activity(R.drawable.dandelion, R.drawable.dandelion,"Dandelion Elastic", "materials:\n" +
+        activities.add( new Activity(R.drawable.dandelion, R.drawable.dandelion,"Dandelion Elastic",
+
+                "materials:\n" +
                 " - Dandelion plants",
 
                 "PROCEDURE:\n\n1. Collect some dandelion leaves and flower stems.\n" +
@@ -279,7 +308,9 @@ public class ActivityHelper {
                 "EXPLANATION:\n\nSap is a juice that flows through plants, " +
                         "carrying food and water to all plant parts. The dandelion sap dried to form an elastic material. When dried, it became stretchable, like a rubber band. \n\n"));
 
-        activities.add( new Activity(R.drawable.apple, R.drawable.applebite,"Quick Spoil", "materials:\n" +
+        activities.add( new Activity(R.drawable.apple, R.drawable.applebite,"Quick Spoil",
+
+                "materials:\n" +
                 "- Apple",
 
                 "PROCEDURE:\n\n1. Take a bite out of the apple. Let the apple stand for a few minutes. What happens?\n",
@@ -289,7 +320,9 @@ public class ActivityHelper {
                 "The inside was exposed to the air, and an oxidation process began. Oxidation is a chemical reaction " +
                         "that causes the inside of the apple to react with the oxygen and begin to decay.\n"));
 
-        activities.add( new Activity(R.drawable.starsproject, R.drawable.starsproject,"Star Pattern", "materials:\n" +
+        activities.add( new Activity(R.drawable.starsproject, R.drawable.starsproject,"Star Pattern",
+
+                "materials:\n" +
                 "- Oatmeal box\n" +
                 "- Pencil\n" +
                 "- Large needle\n" +
@@ -308,7 +341,9 @@ public class ActivityHelper {
                 "This is similar to the way the image of stars is projected in a planetarium. \n" +
                 " Each cluster represents one year of growth. To determine the age of the fish, just count the clusters around each scale.\n"));
 
-        activities.add( new Activity(R.drawable.stump, R.drawable.stump,"Tree Stump", "materials:\n" +
+        activities.add( new Activity(R.drawable.stump, R.drawable.stump,"Tree Stump",
+
+                "materials:\n" +
                 "-  tree stumps",
 
                 "PROCEDURE:\n\n1. Examine the stumps for rings and holes." +
@@ -317,14 +352,16 @@ public class ActivityHelper {
                 "EXPLANATION:\n\nBy counting the rings of the tree you can tell the approximate age of" +
                         " the tree when it was cut down. The rings in the early years of the tree’s life are usually wider " +
                         "because growth is more rapid in these years. \n"));
-        
-        activities.add( new Activity(R.drawable.coldhands, R.drawable.coldhands,"Cold hands", "materials:\n" +
+
+        activities.add( new Activity(R.drawable.coldhands, R.drawable.coldhands,"Cold hands",
+
+                "materials:\n" +
 
                 "- Coins\n" +
                 "- Pushpins\n" +
                 "- Plastic zip bag\n" +
                 "- Ice cubes \n" +
-                "- Timer\n",
+                "- Timer",
 
                 "PROCEDURE:\n\n1. Place some coins and pushpins on a table and practice picking them up and putting them back down.\n" +
                         "2. Notice how easy this is to do. \n" +
@@ -338,11 +375,13 @@ public class ActivityHelper {
                         " making it difficult for you to do simple tasks like picking up objects. " +
                         "It was much easier to pick up the coins and pushpins before you held the bag of ice cubes.\n"));
 
-        activities.add( new Activity(R.drawable.frostincan, R.drawable.frostincan2,"Frost Formation", "materials:\n" +
+        activities.add( new Activity(R.drawable.frostincan, R.drawable.frostincan2,"Frost Formation",
+
+                "materials:\n" +
                 "- 20 ice cubes\n" +
                 "- Tin can\n" +
                 "- 1 teaspoon salt\n" +
-                "- Spoon\n",
+                "- Spoon",
 
                 "PROCEDURE:\n\n1. Place the ice cubes in the tin can\n" +
                         "2. Add the salt and mix rapidly\n" +
@@ -352,7 +391,9 @@ public class ActivityHelper {
                         " The moisture condenses and collects as frost on the cold surface. By placing the ice cubes in the can, you caused the can to become very cold. The salt causes the ice to melt." +
                         " Tiny droplets of water in the air immediately attached themselves to the sides of the can and froze there. \n"));
 
-        activities.add( new Activity(R.drawable.outsidebreath, R.drawable.outsidebreath,"Outside Breath", "materials:\n" +
+        activities.add( new Activity(R.drawable.outsidebreath, R.drawable.outsidebreath,"Outside Breath",
+
+                "materials:\n" +
                 "- Cold morning",
 
                 "PROCEDURE:\n\n1. Go outside on a cold morning and blow in the air. What do you see?\n",
@@ -361,7 +402,9 @@ public class ActivityHelper {
                         " The cold air outside cannot hold as much moisture in your breath condenses into tiny droplets as" +
                         " it becomes cooler. You can see these tiny droplets floating in the air. \n"));
 
-        activities.add( new Activity(R.drawable.snowfall, R.drawable.snowfall2,"Silent Snow", "materials:\n" +
+        activities.add( new Activity(R.drawable.snowfall, R.drawable.snowfall2,"Silent Snow",
+
+                "materials:\n" +
                 "- Snowfall",
 
                 "PROCEDURE:\n\n1. Go outside during a snowfall. \n" +
@@ -370,11 +413,13 @@ public class ActivityHelper {
                 "EXPLANATION:\n\nSnowflakes are light and airy crystals with millions of tiny spaces between them. The spaces can absorb sounds." +
                         " These crystals cause the sounds in the environment to be somewhat muffled - like what you might hear with your head under a pillow. "));
 
-        activities.add( new Activity(R.drawable.warmwater3, R.drawable.warmwater3,"Silly Senses", "materials:\n" +
+        activities.add( new Activity(R.drawable.warmwater3, R.drawable.warmwater3,"Silly Senses",
+
+                "materials:\n" +
                 "- 3 plastic bowls\n" +
                 "- Very warm(almost hot) tap water\n" +
                 "- Ice water\n" +
-                "- Tap water at room temperature\n",
+                "- Tap water at room temperature",
 
                 "PROCEDURE:\n\n1. Fill one of the bowls with very warm water\n" +
                         "Fill the second one with ice water\n" +
@@ -387,10 +432,12 @@ public class ActivityHelper {
                         " The hand that was in the very warm water felt cold in the room temperature water. Your sensors were trying to figure out what to feel. When the sensors are exposed to a" +
                         " strong sensation for a while, they can be fooled when they are quickly exposed to another sensation. Your sense receptors need time to get used to the change. \n"));
 
-        activities.add( new Activity(R.drawable.skis, R.drawable.skis,"Why does skis stay on top of the snow?", "materials:\n" +
+        activities.add( new Activity(R.drawable.skis, R.drawable.skis,"Why does skis stay on top of the snow?",
+
+                "materials:\n" +
                 "- Snow boots\n" +
                 "- Snow\n" +
-                "- Skis\n",
+                "- Skis",
 
                 "PROCEDURE:\n\n1. Put on the snow boots and walk in the snow.\n" +
                         "2. Try different ways to stay on top of the snow,\n" +
@@ -401,11 +448,13 @@ public class ActivityHelper {
                         " The farce per unit area, or pressure, is high enough to penetrate the surface of the snow. " +
                         "When you put on skis, your weight was distributed over a larger area, This decreased the pressure, so you did not sink into the snow."));
 
-        activities.add( new Activity(R.drawable.stringice, R.drawable.stringice,"How can you make an Ice Cube Stick to a string?", "materials:\n" +
+        activities.add( new Activity(R.drawable.stringice, R.drawable.stringice,"How can you make an Ice Cube Stick to a string?",
+
+                "materials:\n" +
                 "- Ice cube\n" +
                 "- Piece of string about 6 inches(15 cm) long\n" +
                 "- Salt\n" +
-                "- Timer\n",
+                "- Timer",
 
                 "PROCEDURE:\n\n1.Place the ice cube on a flat surface.\n" +
                         "2. Put the string across the top of the ice cube so that half of it extends down each side of the cube.\n" +
@@ -417,7 +466,9 @@ public class ActivityHelper {
                         "When you added salt to the ice cube, you caused the area around the string to melt slightly. " +
                         "The string formed a groove in the ice, the water refroze, encasing the string. "));
 
-        activities.add( new Activity(R.drawable.pinetree, R.drawable.pinetree,"Tree Age", "materials:\n" +
+        activities.add( new Activity(R.drawable.pinetree, R.drawable.pinetree,"Tree Age",
+
+                "materials:\n" +
                 "- Pine tree\n",
 
                 "PROCEDURE:\n\n1. Look at the branches of the pine tree. Notice the groups of circles of branches around the tree. \n" +
@@ -427,10 +478,12 @@ public class ActivityHelper {
                         "Each year a pine tree adds a new circle of branches around its trunk. By counting the circles of branches, you can determine the tree’s age." +
                         " But inspect the trunk carefully to make sure no one has cut off a row of brunches. \n"));
 
-        activities.add( new Activity(R.drawable.seasonchange, R.drawable.seasonchange,"Winter World", "materials:\n" +
+        activities.add( new Activity(R.drawable.seasonchange, R.drawable.seasonchange,"Winter World",
+
+                "materials:\n" +
                 "- Apple\n" +
                 "- Stick\n" +
-                "- Lamp with shade removed\n",
+                "- Lamp with shade removed",
 
                 "PROCEDURE:\n\n1. Put on the snow boots and walk in the snow.\n" +
                         "2. Try different ways to stay on top of the snow,\n" +

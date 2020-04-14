@@ -4,6 +4,8 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="65dp"
@@ -15,8 +17,8 @@
         android:layout_alignParentLeft="true"
         android:layout_marginStart="14dp"
         android:layout_marginLeft="14dp"
-        android:layout_marginTop="3dp"
-        android:layout_marginBottom="5dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="2dp"
         app:srcCompat="@mipmap/ic_launcher" />
 
     <TextView
@@ -35,11 +37,12 @@
     <TextView
         android:id="@+id/materialsTextView"
         android:layout_width="297dp"
-        android:layout_height="62dp"
+        android:layout_height="wrap_content"
         android:layout_below="@+id/textView"
         android:layout_marginStart="22dp"
         android:layout_marginLeft="22dp"
         android:layout_marginTop="4dp"
+        android:layout_marginBottom="2dp"
         android:layout_toEndOf="@+id/imageView"
         android:layout_toRightOf="@+id/imageView"
         android:text="TextView"

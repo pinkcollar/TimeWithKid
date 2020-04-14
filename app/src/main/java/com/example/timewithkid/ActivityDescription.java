@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
+import android.text.method.ScrollingMovementMethod;
 import android.view.Display;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -28,12 +29,15 @@ public class ActivityDescription extends AppCompatActivity {
             int pic = getDescriptionImage(index);
             ImageView img = (ImageView) findViewById(R.id.descriptionImageView);
             img.setImageResource(pic);
+
             //scaleImg(img, pic);
             TextView descriptionView = (TextView) findViewById(R.id.DescriprionTextView);
             descriptionView.setText(activities.get(index).description);
 
+
             TextView explanationView = (TextView) findViewById(R.id.ExplanationTextView);
             explanationView.setText(activities.get(index).getExplanation());
+
         }
 
     }
