@@ -62,10 +62,11 @@ public class MainActivity extends AppCompatActivity {
             return position;
         }
 
+
         @Override
         public View getView(int position, View convertView, ViewGroup parent) {
             View view = getLayoutInflater().inflate(R.layout.customlayout, null);
-            ImageView mImageView = view.findViewById(R.id.imageView);
+            ImageView mImageView = view.findViewById(R.id.round_image);
             TextView mTaskNamesTextView = view.findViewById(R.id.textView);
             TextView mMaterialsTextView = view.findViewById(R.id.materialsTextView);
             mImageView.setImageResource(activities.getActivities().get(position).getLogoImgSrc());

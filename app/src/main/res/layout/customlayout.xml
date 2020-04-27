@@ -6,20 +6,19 @@
 
 
 
-    <ImageView
-        android:id="@+id/imageView"
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/round_image"
         android:layout_width="65dp"
         android:layout_height="65dp"
-        android:scaleType="fitXY"
-        android:adjustViewBounds="true"
         android:layout_below="@+id/textView"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
         android:layout_marginStart="14dp"
         android:layout_marginLeft="14dp"
         android:layout_marginTop="4dp"
         android:layout_marginBottom="2dp"
-        app:srcCompat="@mipmap/ic_launcher" />
+        app:civ_border_width="1dp"
+        app:civ_border_color="#FF000000"/>
 
     <TextView
         android:id="@+id/textView"
@@ -39,15 +38,15 @@
         android:layout_width="297dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView"
-        android:layout_marginStart="22dp"
-        android:layout_marginLeft="22dp"
-        android:layout_marginTop="4dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="5dp"
         android:layout_marginBottom="2dp"
-        android:layout_toEndOf="@+id/imageView"
-        android:layout_toRightOf="@+id/imageView"
+        android:layout_toEndOf="@+id/round_image"
+        android:layout_toRightOf="@+id/round_image"
         android:text="TextView"
-        android:textStyle="italic"
-        android:textColor="#0A0A0A" />
+        android:textColor="#0A0A0A"
+        android:textStyle="italic" />
 
 
 </RelativeLayout>

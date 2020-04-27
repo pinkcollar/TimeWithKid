@@ -35,7 +35,7 @@ public class ActivityHelper {
                 "that connect to other barbules on either side like teeth of a zipper. The barbs are covered with an oily substance, made in duck's skin, that keeps water away from the duck." +
                 "When you put the water from the eyedropper on the feather, the water just rolled off."));
 
-        activities.add( new Activity(R.drawable.floatingegg, R.drawable.floatingegg,"The Floating Egg",
+        activities.add( new Activity(R.drawable.floatingegg3, R.drawable.floatingegg,"The Floating Egg",
 
                 "materials:\n" +
                 "- two chicken eggs\n" +
