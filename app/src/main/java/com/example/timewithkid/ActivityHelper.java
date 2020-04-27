@@ -266,19 +266,6 @@ public class ActivityHelper {
                         "As the sun warmed the soil in the bag, you saw water droplets form at the top pf the bag. When enough water collected at the top  of the bag, " +
                         "it became heavy and fell back to the soil like rain." ));
 
-        activities.add( new Activity(R.drawable.soap, R.drawable.soap,"Massive Expanding Soap",
-
-                "materials:\n" +
-                "- Ivory Soap\n" +
-                "- Large Microwave-safe Bowl",
-
-                "PROCEDURE:\n\n1. Place the bar of soap in the bowl, and microwave it on high power for two minutes.\n" +
-                "2. Watch it grow!\n" +
-                "3. Wait 2 minutes for the bowl and foam to cool.",
-
-                "EXPLANATION:\n\nIvory soap has lots of little air bubbles in it. " +
-                "As the air bubbles are heated in the microwave, they get bigger. The soap is a solid, so once it expands, it stays expanded (although it does shrink a little as it cools)."));
-
         activities.add( new Activity(R.drawable.fish_age, R.drawable.fish_age,"Fish Age",
 
                 "materials:\n" +
@@ -402,7 +389,7 @@ public class ActivityHelper {
                         " The cold air outside cannot hold as much moisture in your breath condenses into tiny droplets as" +
                         " it becomes cooler. You can see these tiny droplets floating in the air. \n"));
 
-        activities.add( new Activity(R.drawable.snowfall, R.drawable.snowfall2,"Silent Snow",
+        activities.add( new Activity(R.drawable.snowfall, R.drawable.snowfall,"Silent Snow",
 
                 "materials:\n" +
                 "- Snowfall",
@@ -477,23 +464,6 @@ public class ActivityHelper {
                 "EXPLANATION:\n\nIt is easy to determine the age of a pine tree without counting the inside rings. " +
                         "Each year a pine tree adds a new circle of branches around its trunk. By counting the circles of branches, you can determine the tree’s age." +
                         " But inspect the trunk carefully to make sure no one has cut off a row of brunches. \n"));
-
-        activities.add( new Activity(R.drawable.seasonchange, R.drawable.seasonchange,"Winter World",
-
-                "materials:\n" +
-                "- Apple\n" +
-                "- Stick\n" +
-                "- Lamp with shade removed",
-
-                "PROCEDURE:\n\n1. Put on the snow boots and walk in the snow.\n" +
-                        "2. Try different ways to stay on top of the snow,\n" +
-                        "3. Put on the skis, What happens when you move in the snow with skis on?\n",
-
-                "EXPLANATION:\n\nWhen you walked in the snow wearing your boots, you sank in.\n" +
-                        "When you put on skis, you glided on top of the snow. When you wore the snow boots, your weight was concentrated in a small area." +
-                        " The farce per unit area, or pressure, is high enough to penetrate the surface of the snow. " +
-                        "When you put on skis, your weight was distributed over a larger area, This decreased the pressure, so you did not sink into the snow."));
-
 
     }
 
