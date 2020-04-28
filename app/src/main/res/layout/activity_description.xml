@@ -13,41 +13,9 @@
             xmlns:tools="http://schemas.android.com/tools"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@drawable/gradient"
+            android:background="@drawable/wood"
             tools:context=".ActivityDescription">
 
-
-            <TextView
-                android:id="@+id/ExplanationTextView"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginLeft="16dp"
-                android:layout_marginTop="24dp"
-                android:layout_marginEnd="16dp"
-                android:layout_marginRight="16dp"
-                android:layout_marginBottom="5dp"
-                android:freezesText="false"
-                android:text="TextView"
-                android:textColor="@android:color/background_dark"
-                android:visibility="visible"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/descriptionImageView"
-                tools:visibility="visible" />
-
-
-            <ImageView
-                android:id="@+id/descriptionImageView"
-                android:layout_width="200dp"
-                android:layout_height="200dp"
-                android:layout_marginTop="24dp"
-                app:layout_constraintBottom_toTopOf="@+id/ExplanationTextView"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.5"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/DescriprionTextView"
-                app:srcCompat="@mipmap/ic_launcher" />
 
             <TextView
                 android:id="@+id/DescriprionTextView"
@@ -59,11 +27,49 @@
                 android:layout_marginEnd="16dp"
                 android:layout_marginRight="16dp"
                 android:text="TextView"
-                android:textColor="@android:color/background_dark"
+                android:textColor="#000000"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.501"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toTopOf="parent"
+                android:fontFamily="Courier"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:id="@+id/descriptionImageView"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="24dp"
+
+                app:layout_constraintBottom_toTopOf="@+id/ExplanationTextView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/DescriprionTextView"
+                android:background="@drawable/shape"
+                app:srcCompat="@mipmap/ic_launcher" />
+
+            <TextView
+                android:id="@+id/ExplanationTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="Courier"
+                android:freezesText="false"
+                android:textStyle="bold"
+                android:text="TextView"
+                android:textColor="#000000"
+                android:visibility="visible"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/descriptionImageView"
+                tools:visibility="visible"
+                />
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>

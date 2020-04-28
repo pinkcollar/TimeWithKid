@@ -11,7 +11,7 @@
         android:orientation="vertical"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:background="@drawable/gradient"
+        android:background="@drawable/wood"
         tools:layout_editor_absoluteX="match_parent"
         tools:layout_editor_absoluteY="match_parent" />
 

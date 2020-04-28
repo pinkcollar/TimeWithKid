@@ -7,13 +7,13 @@ public class ActivityHelper {
 
 
     public void addActivities() {
-        activities.add( new Activity(R.drawable.pineconeclosedopen, R.drawable.pineconepreschoolsciencexperiment,"Closed Cones",
+        activities.add( new Activity(R.drawable.pineconeclosedopen, R.drawable.pineconeclosedopen,"Closed Cones",
                 "materials:\n" +
                         "- two pinecones from a white pine or hemlock pine\n" +
                         "- bowl of tap water\n" +
                         "- timer",
 
-                "PROCEDURE:\n\n1. Place one pinecode in the tap water for 10 minutes\n2. Keep one dry.\n What happens to the wet pinecone in comparison" +
+                "PROCEDURE:\n\n1. Place one pinecone in the tap water for 10 minutes\n2. Keep one dry.\n What happens to the wet pinecone in comparison" +
                         " to the dry one?\n" +
                         "3. Let the pinecone dry out and inspect it again.",
 
@@ -29,13 +29,15 @@ public class ActivityHelper {
                 "- magnifying lens",
 
                 "PROCEDURE:\n\n1. Fill eyedropper with tap water.\n2. Place a few drops of water on the feather.\n Use the magnifying lens to observe the feather." +
-                "What happens to ther water drops?"
+                "What happens to the water drops?"
 
-                , "EXPLANATION:\n\nFeathers keep birds warm, and they enable them to fly. Each feather has tiny hairlike sections called barbs. Each barb has many tiny hooked barbules, " +
-                "that connect to other barbules on either side like teeth of a zipper. The barbs are covered with an oily substance, made in duck's skin, that keeps water away from the duck." +
+                , "EXPLANATION:\n\nFeathers keep birds warm, and they enable them to fly. Each feather has tiny hairlike sections called barbs." +
+                " Each barb has many tiny hooked barbules, " +
+                "that connect to other barbules on either side like teeth of a zipper. " +
+                "The barbs are covered with an oily substance, made in duck's skin, that keeps water away from the duck." +
                 "When you put the water from the eyedropper on the feather, the water just rolled off."));
 
-        activities.add( new Activity(R.drawable.floatingegg3, R.drawable.floatingegg,"The Floating Egg",
+        activities.add( new Activity(R.drawable.floatingegg3, R.drawable.floatingegg3,"The Floating Egg",
 
                 "materials:\n" +
                 "- two chicken eggs\n" +
@@ -68,7 +70,7 @@ public class ActivityHelper {
                 "- toothpick",
 
                 "PROCEDURE:\n\n1. If the egg was in the refrigerator, let it sit out for a while to warm.\n" +
-                        "2. Examine the outside og the egg under the magnifying lens.\n" +
+                        "2. Examine the outside of the egg under the magnifying lens.\n" +
                 "3. Slowly crack the egg open over a bowl and examine the inside of the shell under magnifying lens.\n" +
                 "4. Study the inside of the egg. Notice the membrane inside the shell.\n" +
                 "5. Examine the yolk. What is the thin membrane around the yolk holding it in a round shape?",
@@ -84,12 +86,12 @@ public class ActivityHelper {
         activities.add( new Activity(R.drawable.watercup, R.drawable.watercup,"Water Fireworks",
 
                 "materials:\n" +
-                "- Water\n" +
-                "- Oil\n" +
-                "- A Fork\n" +
-                "- Food Coloring (Any color of your choosing)\n" +
+                "- water\n" +
+                "- oil\n" +
+                "- a fork\n" +
+                "- food Coloring (Any color of your choosing)\n" +
                 "- 16 oz clear glass\n" +
-                "- Another 16 oz clear glass",
+                "- another 16 oz clear glass",
 
                 "PROCEDURE:\n\n1. Fill the tall glass almost to the top with room-temperature water.\n" +
                 "2. Pour 2 tablespoons of oil into the other glass.\n" +
@@ -99,7 +101,7 @@ public class ActivityHelper {
                 "6. Now watch! The food coloring will slowly sink in the glass, with each droplet expanding outwards as it falls. Looks like fireworks! Right?",
 
                 "EXPLANATION:\n\nFood coloring dissolves in water, but not in oil. So when you pour in your food coloring/oil mixture the oil will" +
-                        " float at the top of the water because it is less dense, and the food coloring will beging to dissolve once they" +
+                        " float at the top of the water because it is less dense, and the food coloring will begin to dissolve once they" +
                         " sink through the oil and into the water."));
 
         activities.add( new Activity(R.drawable.sunclock, R.drawable.sunclock,"Sun Dial",
@@ -125,9 +127,9 @@ public class ActivityHelper {
         activities.add( new Activity(R.drawable.balloon, R.drawable.balloon,"Balloon Pop! Not!",
 
                 "materials:\n" +
-                "- A Balloon\n" +
+                "- a balloon\n" +
                 "- 2 pieces of tape, each about 2 inches in length\n" +
-                "- Small needle or push pin (with adult supervision)",
+                "- small needle or push pin (with adult supervision)",
 
                 "PROCEDURE:\n\n1. Blow up balloon.\n2. se the the two pieces of tape to make an “X” on your balloon.\n" +
                         "3. Carefully (with parent supervision), push needle through the middle of your “X”.\n" +
@@ -141,12 +143,12 @@ public class ActivityHelper {
         activities.add( new Activity(R.drawable.soundbaloon, R.drawable.soundbaloon,"Balloon Speakers",
 
                 "materials:\n" +
-                "- 1. Balloon",
+                "- 1. a balloon",
 
                 "PROCEDURE:\n\n1. Blow up the balloon so that it is filled with air.\n2. Hold the balloon up to your ear.\n" +
-                "3. Slowly crack the egg open over a bowl and examine the inside of the shell under magnifying lens.\n" +
-                "4. Lightly tap the other side of the balloon with your finger. Can you hear the sound well? Can you feel the vibrations?\n" +
-                "5. Now let go of the balloon. Which way does the air escape? Which direction does the balloon move in?",
+
+                "3. Lightly tap the other side of the balloon with your finger. Can you hear the sound well? Can you feel the vibrations?\n" +
+                "4. Now let go of the balloon. Which way does the air escape? Which direction does the balloon move in?",
 
                 "EXPLANATION:\n\nWhen you blow into the balloon you are pushing air molecules into the balloon." +
                         " They are forced into a small area so are very close together." +
@@ -191,18 +193,16 @@ public class ActivityHelper {
         activities.add( new Activity(R.drawable.milkart, R.drawable.milkart,"Milk Art",
 
                 "materials:\n" +
-                "- A bowl\n" +
+                "- a bowl\n" +
                 "- ½ cup of milk\n" +
-                "- Dish soap\n" +
-                "- Food Coloring, more than one color\n" +
-                "- Cotton swab",
+                "- dish soap\n" +
+                "- food Coloring, more than one color\n" +
+                "- cotton swab",
 
-                "PROCEDURE:\n\n1.  Pour the milk into the bowl. " +
-                "Be careful not to move the bowl, you want the milk as still as possible..\n2. " +
-                " Pour the milk into the bowl. Be careful not to move the bowl, you want the milk as still as possible.\n" +
-                "3.  Put just a tiny amount of soap on the end of the cotton swab, then touch it to one of the colors. WOW!\n" +
-                "4.  Let the experimenting begin!\n" +
-                "5.  To clean up, just pour the milk down the drain. (Do not drink it)",
+                "PROCEDURE:\n\n1. Pour the milk into the bowl. Be careful not to move the bowl, you want the milk as still as possible.\n" +
+                "2.  Put just a tiny amount of soap on the end of the cotton swab, then touch it to one of the colors. WOW!\n" +
+                "3.  Let the experimenting begin!\n" +
+                "4.  To clean up, just pour the milk down the drain. (Do not drink it)",
 
                 "EXPLANATION:\n\n" +
                 "Milk has fat in it and the food coloring floats on top of the fat. The fat is all connected with bonds." +
@@ -216,9 +216,10 @@ public class ActivityHelper {
                 "materials:\n" +
                 "- Square Paper",
 
-                "PROCEDURE:\n\n1. Start by folding the square in half corner to corner to make a triangle.\n2. Fold that triangle in half corner to corner to form a smaller triangle.\n" +
+                "PROCEDURE:\n\n1. Start by folding the square in half corner to corner to make a triangle.\n" +
+                        "2. Fold that triangle in half corner to corner to form a smaller triangle.\n" +
                 "3. Unfold the previous fold to get the larger triangle. Fold the edges of the triangle into the newly-made crease to form a kite shape.\n" +
-                "4. Fold the inside edges of the kite shape toward the outside edges as shown.\n" +
+                "4. Fold the inside edges of the kite shape toward the outside edges.\n" +
                 "5. Turn the paper upside down and blow gently into the open end. Your hovercraft should zoom away!",
 
                 "EXPLANATION:\n\nThe pocket under the hovercrafts trap air and create a zone of high pressure. Further, the air moving over the craft has lower pressure." +
@@ -240,7 +241,7 @@ public class ActivityHelper {
                         "predict the type of weather is coming. Cirrus clouds are the highest clouds. " +
                         "They are made entirely of ice crystals.They usually indicate snow or rain. " +
                         "Stratus clouds are low hanging. They are so spread out that they often resemble fog. " +
-                        "They strech across the sky in long, horisontal layers and develop when cold air cut" +
+                        "They stretch across the sky in long,horizontal layers and develop when cold air cut" +
                         "under warm, moist filled air. They often produce long, steady rains or snow." +
                         " Cumulus clouds are fluffy, cauliflower-shaped clouds with flat, broad bases. Usually they form" +
                         "on top of rapidly rising currents of warm air. These clouds form on clear days. "));
@@ -323,15 +324,14 @@ public class ActivityHelper {
                         "5. Point the bottom of the box toward the ceiling. What do you see when you turn the flashlight on?",
 
                 "EXPLANATION:\n\nConstellations are " +
-                "clusters of stars that people have seen as patterns. When you poked holes in the bottom of the box, you created a star  pattern. " +
+                "clusters of stars that people have seen as patterns. When you poked holes in the bottom of the box, you created a star pattern. " +
                         "The light passing through the holes projected this pattern on the ceiling. " +
-                "This is similar to the way the image of stars is projected in a planetarium. \n" +
-                " Each cluster represents one year of growth. To determine the age of the fish, just count the clusters around each scale.\n"));
+                "This is similar to the way the image of stars is projected in a planetarium. \n" ));
 
         activities.add( new Activity(R.drawable.stump, R.drawable.stump,"Tree Stump",
 
                 "materials:\n" +
-                "-  tree stumps",
+                "- tree stumps",
 
                 "PROCEDURE:\n\n1. Examine the stumps for rings and holes." +
                         " Can you tell how old the tree was when it was cut down? Compare several tree stumps. \n.",
@@ -375,10 +375,11 @@ public class ActivityHelper {
                         "3. Watch the frost form on the outside of the can\n",
 
                 "EXPLANATION:\n\nFrost is formed when air containing moisture in the form of water is cooled below freezing temperature." +
-                        " The moisture condenses and collects as frost on the cold surface. By placing the ice cubes in the can, you caused the can to become very cold. The salt causes the ice to melt." +
+                        " The moisture condenses and collects as frost on the cold surface. By placing the ice cubes in the can, you caused the can to become very cold. " +
+                        "The salt causes the ice to melt." +
                         " Tiny droplets of water in the air immediately attached themselves to the sides of the can and froze there. \n"));
 
-        activities.add( new Activity(R.drawable.outsidebreath, R.drawable.outsidebreath,"Outside Breath",
+        activities.add( new Activity(R.drawable.outsidebreath, R.drawable.outsidebreath2,"Outside Breath",
 
                 "materials:\n" +
                 "- Cold morning",
@@ -413,11 +414,13 @@ public class ActivityHelper {
                         "Fill the third bowl with tap water at room temperature.\n" +
                         "Arrange the bowls so the one containing the water at room temperature is in the middle. \n" +
                         "Place one hand in the very warm water and the other in the ice water for about 1 minute. \n" +
-                        "Then place both hands in the water at room temperature. What do you feelin each hand?\n",
+                        "Then place both hands in the water at room temperature. What do you feel in each hand?\n",
 
                 "EXPLANATION:\n\nThe hand that was in the ice water felt hot in the water that was at room temperature." +
-                        " The hand that was in the very warm water felt cold in the room temperature water. Your sensors were trying to figure out what to feel. When the sensors are exposed to a" +
-                        " strong sensation for a while, they can be fooled when they are quickly exposed to another sensation. Your sense receptors need time to get used to the change. \n"));
+                        " The hand that was in the very warm water felt cold in the room temperature water. " +
+                        "Your sensors were trying to figure out what to feel. When the sensors are exposed to a" +
+                        " strong sensation for a while, they can be fooled when they are quickly exposed to another sensation." +
+                        " Your sense receptors need time to get used to the change. \n"));
 
         activities.add( new Activity(R.drawable.skis, R.drawable.skis,"Why does skis stay on top of the snow?",
 
@@ -427,7 +430,7 @@ public class ActivityHelper {
                 "- Skis",
 
                 "PROCEDURE:\n\n1. Put on the snow boots and walk in the snow.\n" +
-                        "2. Try different ways to stay on top of the snow,\n" +
+                        "2. Try different ways to stay on top of the snow.\n" +
                         "3. Put on the skis, What happens when you move in the snow with skis on?\n",
 
                 "EXPLANATION:\n\nWhen you walked in the snow wearing your boots, you sank in.\n" +
