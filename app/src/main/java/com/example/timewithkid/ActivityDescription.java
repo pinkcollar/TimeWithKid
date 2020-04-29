@@ -5,9 +5,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.graphics.Matrix;
 import android.os.Bundle;
 import android.text.method.ScrollingMovementMethod;
 import android.view.Display;
+import android.view.MotionEvent;
+import android.view.ScaleGestureDetector;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -15,6 +18,11 @@ import java.util.ArrayList;
 
 public class ActivityDescription extends AppCompatActivity {
     ArrayList<Activity> activities = MainActivity.activities.getActivities();
+    ImageView img;
+    Matrix matrix = new Matrix();
+    Float scale = 1f;
+    ScaleGestureDetector SGD;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,24 +30,37 @@ public class ActivityDescription extends AppCompatActivity {
 
         Intent in = getIntent();
         int index = in.getIntExtra("com.example.timewithkid.DESCRIPTION_INDEX", -1);
+        int pic = getDescriptionImage(index);
+        img = (ImageView) findViewById(R.id.descriptionImageView);
+        img.setImageResource(pic);
 
 
-
-        if (index > -1){
-            int pic = getDescriptionImage(index);
-            ImageView img = (ImageView) findViewById(R.id.descriptionImageView);
-            img.setImageResource(pic);
-
-            //scaleImg(img, pic);
-            TextView descriptionView = (TextView) findViewById(R.id.DescriprionTextView);
-            descriptionView.setText(activities.get(index).description);
+        TextView descriptionView = (TextView) findViewById(R.id.DescriprionTextView);
+        descriptionView.setText(activities.get(index).description);
 
 
-            TextView explanationView = (TextView) findViewById(R.id.ExplanationTextView);
-            explanationView.setText(activities.get(index).getExplanation());
+        TextView explanationView = (TextView) findViewById(R.id.ExplanationTextView);
+        explanationView.setText(activities.get(index).getExplanation());
 
+        SGD = new ScaleGestureDetector(this, new ScaleListener());
+
+    }
+
+    private class ScaleListener extends ScaleGestureDetector.SimpleOnScaleGestureListener{
+        @Override
+        public  boolean onScale(ScaleGestureDetector detector){
+            scale = scale * detector.getScaleFactor();
+            scale = Math.max(0.1f, Math.min(scale, 5f));
+            matrix.setScale(scale, scale);
+            img.setImageMatrix(matrix);
+            return true;
         }
+    }
 
+    @Override
+    public boolean onTouchEvent(MotionEvent event){
+        SGD.onTouchEvent(event);
+        return true;
     }
 
     private int getDescriptionImage(int index){
@@ -48,23 +69,5 @@ public class ActivityDescription extends AppCompatActivity {
 
     }
 
-    private void scaleImg(ImageView img, int pic){
-        Display screen = getWindowManager().getDefaultDisplay();
-        BitmapFactory.Options options = new BitmapFactory.Options();
 
-        options.inJustDecodeBounds = true;
-        BitmapFactory.decodeResource(getResources(), pic, options);
-
-        int imgWidth = options.outWidth;
-        int screenWidth = screen.getWidth();
-
-        if(imgWidth > screenWidth){
-            int ratio = Math.round((float)imgWidth/(float)screenWidth);
-            options.inSampleSize = ratio;
-        }
-
-        options.inJustDecodeBounds = false;
-        Bitmap scaledImg = BitmapFactory.decodeResource(getResources(), pic, options);
-        img.setImageBitmap(scaledImg);
-    }
 }

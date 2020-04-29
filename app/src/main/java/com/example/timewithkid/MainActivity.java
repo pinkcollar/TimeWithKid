@@ -3,8 +3,10 @@ package com.example.timewithkid;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.graphics.Matrix;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.view.ScaleGestureDetector;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
@@ -61,12 +63,12 @@ public class MainActivity extends AppCompatActivity {
         public long getItemId(int position) {
             return position;
         }
-
+        ImageView mImageView;
 
         @Override
         public View getView(int position, View convertView, ViewGroup parent) {
             View view = getLayoutInflater().inflate(R.layout.customlayout, null);
-            ImageView mImageView = view.findViewById(R.id.round_image);
+            mImageView = view.findViewById(R.id.round_image);
             TextView mTaskNamesTextView = view.findViewById(R.id.textView);
             TextView mMaterialsTextView = view.findViewById(R.id.materialsTextView);
             mImageView.setImageResource(activities.getActivities().get(position).getLogoImgSrc());
@@ -74,6 +76,7 @@ public class MainActivity extends AppCompatActivity {
             mMaterialsTextView.setText(activities.getActivities().get(position).getMaterials());
             return view;
         }
+
     }
 
 

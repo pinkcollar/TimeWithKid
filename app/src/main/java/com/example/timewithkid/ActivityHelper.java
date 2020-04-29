@@ -18,7 +18,7 @@ public class ActivityHelper {
                         "3. Let the pinecone dry out and inspect it again.",
 
                 "EXPLANATION:\n\nAfter few minutes, the wet pinecone's scales started to close. Pinecones rely on the force of wind to blow " +
-                        "their seed to a spot where they can grow. Therefore, the seeds must be light and dry as possible. During rainstorms, the pinecones act as little umbrellas" +
+                        "their seed to a spot where they can grow. Therefore, the seeds must be light and dry as possible. During rainstorms, the pinecones act as little umbrellas " +
                         "to keep the seeds dry. When the pinecone dries, it opens again. "));
 
         activities.add( new Activity(R.drawable.feather, R.drawable.feathersbarbules,"Duck Feathers",
@@ -143,7 +143,7 @@ public class ActivityHelper {
         activities.add( new Activity(R.drawable.soundbaloon, R.drawable.soundbaloon,"Balloon Speakers",
 
                 "materials:\n" +
-                "- 1. a balloon",
+                "- a balloon",
 
                 "PROCEDURE:\n\n1. Blow up the balloon so that it is filled with air.\n2. Hold the balloon up to your ear.\n" +
 
@@ -211,7 +211,7 @@ public class ActivityHelper {
                         "When you add the dish soap to the milk, " +
                 "the fat separates and moves making your magical milk art!"));
 
-        activities.add( new Activity(R.drawable.mainplane, R.drawable.plane,"Paper Hovercrafts",
+        activities.add( new Activity(R.drawable.mainplane, R.drawable.craftinstruction2,"Paper Hovercrafts",
 
                 "materials:\n" +
                 "- Square Paper",
@@ -227,7 +227,7 @@ public class ActivityHelper {
                         " lift and gets rid of the friction that normally holds the paper in place on the table. Without friction holding it back," +
                         " a little breath is all it takes to get the hovercraft speeding on its way!"));
 
-        activities.add( new Activity(R.drawable.clouds, R.drawable.cloudstypes,"What Do Different Types of Clouds Mean?",
+        activities.add( new Activity(R.drawable.clouds, R.drawable.clouds,"What Do Different Types of Clouds Mean?",
 
                 "materials:\n" +
                         "- clouds",
@@ -379,7 +379,7 @@ public class ActivityHelper {
                         "The salt causes the ice to melt." +
                         " Tiny droplets of water in the air immediately attached themselves to the sides of the can and froze there. \n"));
 
-        activities.add( new Activity(R.drawable.outsidebreath, R.drawable.outsidebreath2,"Outside Breath",
+        activities.add( new Activity(R.drawable.outsidebreath, R.drawable.coldbreath,"Outside Breath",
 
                 "materials:\n" +
                 "- Cold morning",
@@ -390,7 +390,7 @@ public class ActivityHelper {
                         " The cold air outside cannot hold as much moisture in your breath condenses into tiny droplets as" +
                         " it becomes cooler. You can see these tiny droplets floating in the air. \n"));
 
-        activities.add( new Activity(R.drawable.snowfall, R.drawable.snowfall,"Silent Snow",
+        activities.add( new Activity(R.drawable.snowfall, R.drawable.snowfall3,"Silent Snow",
 
                 "materials:\n" +
                 "- Snowfall",
@@ -422,7 +422,7 @@ public class ActivityHelper {
                         " strong sensation for a while, they can be fooled when they are quickly exposed to another sensation." +
                         " Your sense receptors need time to get used to the change. \n"));
 
-        activities.add( new Activity(R.drawable.skis, R.drawable.skis,"Why does skis stay on top of the snow?",
+        activities.add( new Activity(R.drawable.skis, R.drawable.skis2,"Why does skis stay on top of the snow?",
 
                 "materials:\n" +
                 "- Snow boots\n" +
